@@ -4,3 +4,12 @@ Lorsqu'une banque prête de l'argent a quelqu'un, elle prend le risque que cette
 Grâce au **MACINE LEARNING**, il est possible d'automatiser cette tâche et de pouvoir prédire avec plus de précision, les clients qui seront en defaut de paiement.
 
 Dans ce projet, nous allons construire un algorythme capable de prédire si une personne est en défaut de paiement ou pas(1 : défaut, 0 : non -défaut). Il s'agit donc d'un problème de classification car nous voulons prédire une variable discrète ( binaire pour être précis). Ensuite nous allons déployer notre algorythme dans une application web
+
+
+En ce qui concerne les données, il s'agit des informations collectées sur d'anciens clients ayant contracté des prêts qui sont utilisées pour prédire le comportement des nouveaux clients.
+
+Deux (2) types de données peuvent être utilisés pour modéliser la probabilité de défaut de paiement:
+
+* Données liées à la demande de crédit:
+* Données comportementales decrivant le bénéficiare du prêt.
+Dans la pratique, les banques utilisent un mélange de ses deux types de données pour construire leur modèl de scoring appliqué a la gestion du risque de crédit.
